@@ -1,0 +1,13 @@
+
+
+/*ativados*/
+
+.tab-content.active{
+    display: block;
+}
+
+/*desativados*/
+
+.tab-content {
+    display: none;
+}
