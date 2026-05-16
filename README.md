@@ -1,19 +1,32 @@
-# javascript-tabs
-Componente de abas desenvolvido com HTML, CSS e JavaScript para praticar manipulação do DOM e eventos.
+# 🗂️ JavaScript Tabs Component
 
-# Tabs
+Um componente de abas interativo, leve e performático, desenvolvido com foco em fundamentos sólidos de manipulação do DOM e lógica de programação eficiente.
 
-Crie um componente simples de abas utilizando HTML, CSS e JavaScript.
+## 🚀 Sobre o Projeto
 
-Este projeto foi desenvolvido para apresentar conceitos básicos de manipulação do DOM e tratamento de eventos em JavaScript.
+Este projeto faz parte do meu processo de evolução como Desenvolvedor Full Stack. O objetivo foi criar uma interface de abas (tabs) que fosse funcional, acessível e com código limpo, evitando redundâncias desnecessárias na manipulação de elementos HTML.
 
-Você deverá criar uma funcionalidade simples de abas utilizando HTML, CSS e JavaScript básico. A página terá quatro abas, sendo que a primeira estará ativa por padrão. Quando o usuário clicar em outra aba, o conteúdo da aba atual deverá ser ocultado, enquanto o conteúdo da aba selecionada será exibido.
+## 🛠️ Tecnologias Utilizadas
 
-## Mockup do Componente de Abas
+- **HTML5**: Estruturação semântica do componente.
+- **CSS3**: Estilização e controle de visibilidade (Display Logic).
+- **JavaScript (ES6+)**: Lógica de alternância de estados e eventos.
 
-Este projeto ajudará você a praticar:
+## 💡 Destaques Técnicos
 
-- Seleção de elementos com JavaScript
-- Escuta de eventos de clique
-- Manipulação do DOM
-- Exibição e ocultação dinâmica de conteúdo
+Durante o desenvolvimento, foquei em otimizar a forma como o JavaScript interage com o navegador:
+
+- **Comparação por Referência de Objeto**: Em vez de ler atributos de texto (como IDs ou Classes) repetidamente no loop, o código utiliza a comparação direta de objetos (`btn === tabBtn`). Isso torna a lógica mais robusta e performática, tratando os elementos do DOM como objetos reais na memória.
+- **Manipulação Dinâmica de Classes**: Uso estratégico de `classList` para alternar estados visuais e de conteúdo sem recarregar a página.
+- **Clean Code**: Código modularizado e fácil de ler, seguindo boas práticas de nomenclatura e escopo de variáveis.
+
+## 📂 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/gabrielgomesxp/javascript-tabs.git
+   ```
+2. Abra o arquivo `index.html` em qualquer navegador.
+
+---
+Desenvolvido por [Gabriel](https://github.com/gabrielgomesxp) — Estudante de Ciência da Computação.
